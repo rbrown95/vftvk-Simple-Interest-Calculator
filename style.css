@@ -1,12 +1,12 @@
 /*Style body background color and font*/
-body {background-color:black; font-family: Arial;}
+body {background-color:black; font-family: Arial; text-align: center;}
 /*body header formatting*/
 h1{color:grey; font-family: Verdana;}
 /*Formatting for the division that holds all form items*/
 .maindiv{background-color: white; 
          color: black; 
-         width: 300px; 
-         padding: 20px; 
-         border-radius: 25px; 
+         width: 30em; 
+         padding: 1%; 
+         border-radius: 5%; 
          align-self: center;
 }
