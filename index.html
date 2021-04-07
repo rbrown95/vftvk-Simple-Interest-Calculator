@@ -2,13 +2,14 @@
 <html>
     <head>
         <!--Title and linking of javascript and css files-->
+        <meta name="viewport" content="width=device-width, inital-scale=1">
         <title>Simple Interest Calculator</title>
         <script src="script.js"></script>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body onload="mobileCheck()">
         <!--div to contain all info in body-->
-        <div class="maindiv">
+        <div class="maindiv" id="maindiv">
             <!--header for body-->
             <h1>Simple Interest Calculator</h1>
             <!--form entry items and their id's-->
