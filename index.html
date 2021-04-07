@@ -12,11 +12,12 @@
         <div class="maindiv" id="maindiv">
             <!--header for body-->
             <h1>Simple Interest Calculator</h1>
+            <img src="Images/calculator.jpg"></br></br>
             <!--form entry items and their id's-->
-            Amount <input type="number"  id="principal">  <br><br>
+            Amount <input type="number"  id="principal">  </br></br>
             <!--slider item that calls range() script during change to amount(slider position)-->
             Rate <input type="range" min="1" max="20" step="0.25" value="10.25" id="rate" oninput="range()">
-            <span id="rateDisplay">10.25%</span> <br><br>
+            <span id="rateDisplay">10.25%</span> </br></br>
             <label for="No Of Years">No. of Years</label>
             <select name="No Of Years" id="years">
                 <option value="1">1</option>
@@ -29,12 +30,12 @@
                 <option value="8">8</option>
                 <option value="9">9</option>
                 <option value="10">10</option>
-            </select> <br><br>
+            </select> </br></br>
             <!--area to show calculated results-->
-            Interest : <span id="result"></span><br><br>
+            Interest : <span id="result"></span></br></br>
             <!--compute button-->
             <button onclick="compute()">Compute Interest</button>
-			<br></br>
+			</br></br>
 			<!--footer for copyright-->
 			<footer>Copyright 2021</footer>
         </div>
