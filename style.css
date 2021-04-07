@@ -5,8 +5,9 @@ h1{color:grey; font-family: Verdana;}
 /*Formatting for the division that holds all form items*/
 .maindiv{background-color: white; 
          color: black; 
-         width: 30em; 
-         padding: 1%; 
+         width: 1000px;
+         height:auto;
+         margin: 0 auto; 
          border-radius: 5%; 
          align-self: center;
 }
